@@ -10,34 +10,36 @@
     <div class="header">
         <img src="assets/svg/logo.svg" alt="logo.svg" width="262px" height="76px">
     </div>
-    <div class="background3">
+    <div class="background">
         <div class="circle1"></div>
         <div class="circle2"></div>
         <div class="circle3"></div>
-        <form class="registration-blok" action="./main.html">
+        <form action="./admin_cabinet.html">
             <div class="contaner">
                 <h1>
-                    <p><a href="index.html">Вход</a></p>
-                    <p><a>Регистрация</a></p>
+                    <p class="vhod">Вход</p>
+                    <p><a class="registration" href="registration.html">Регистрация</a></p>
                 </h1>
-                <div class="input-box">
-                    <p>Логин</p>
-                    <input type="text" placeholder="" readonly>
+                <div class="vhod-vseh">
+                    <ul>
+                        <a href="./index.html" >Участник</a>
+                        <a href="./index-head_cabinet.html" >Руководитель</a>
+                        <a href="#" class="uc">Администратор</a>
+                    </ul>
                 </div>
                 <div class="input-box">
                     <p>Электронная почта</p>
                     <input type="text" placeholder="" readonly>
                 </div>
                 <div class="input-box">
-                    <p>Пароль</p>
-                    <input type="password" placeholder="" readonly>
-                </div>
-                <div class="input-box">
-                    <p>Повторить пароль</p>
+                    <h2>
+                        <p>Пароль</p>
+                        <a href="restoration.html">Забыли пароль?</a>
+                    </h2>
                     <input type="password" placeholder="" readonly>
                 </div>
             </div>
-            <button class="button-voyti">Войти</button>
+            <button>Вход</button>
         </form>
     </div>
     <footer>
