@@ -1,0 +1,409 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  list-style-type: none;
+  outline: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  background-color: #313131;
+  border-bottom: 2px solid #A6D8D4;
+}
+header .logo {
+  display: flex;
+  justify-content: center;
+}
+header .nav {
+  display: flex;
+  max-width: 1130px;
+}
+header .nav ul {
+  display: flex;
+  gap: 50px;
+  color: #A6D8D4;
+  font-size: 25px;
+}
+header .avatar {
+  display: flex;
+  background-color: #8B8B8B;
+  padding: 15px;
+  border-radius: 100%;
+}
+
+.header {
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #313131;
+  border-bottom: 2px solid #A6D8D4;
+}
+.header img {
+  display: flex;
+  justify-content: center;
+}
+
+.background {
+  width: 100%;
+  height: 870px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #404040;
+}
+.background form {
+  width: 800px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  background: #313131;
+  gap: 25px;
+}
+.background form .contaner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.background form .contaner h1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #A6D8D4;
+}
+.background form .contaner h1 .registration {
+  color: #929292;
+}
+.background form .vhod-vseh {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.background form .vhod-vseh ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.background form .vhod-vseh a {
+  color: #929292;
+  font-size: 24px;
+}
+.background form .vhod-vseh .uc {
+  color: #A6D8D4;
+}
+.background form .input-box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.background form .input-box h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.background form .input-box p {
+  color: white;
+  font-size: 12px;
+}
+.background form .input-box a {
+  color: white;
+  font-size: 12px;
+}
+.background form .input-box input {
+  width: 570px;
+  height: 55px;
+  display: flex;
+  background: white;
+  border: 2px solid #A6D8D4;
+  border-radius: 10px;
+}
+.background form button {
+  width: 135px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-size: 24px;
+  background: #A6D8D4;
+  color: black;
+}
+
+.main_container {
+  padding: 30px;
+  max-width: 1920px;
+  max-height: 870px;
+  background-color: #404040;
+}
+.main_container .inf {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  max-width: 1650px;
+  max-height: 675px;
+  padding: 20px;
+}
+.main_container .inf .person {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.main_container .inf .person .avatar {
+  display: flex;
+  background-color: #8B8B8B;
+  padding: 15px;
+  border-radius: 100%;
+}
+.main_container .inf .person ul {
+  color: #A6D8D4;
+  font-size: 18px;
+  font-weight: 500;
+}
+.main_container .inf_of_person {
+  max-width: 1900px;
+  display: flex;
+  justify-content: space-between;
+}
+.main_container .inf_of_person .change_data {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  max-width: 500px;
+  max-height: 331px;
+}
+.main_container .inf_of_person .change_data .text {
+  display: flex;
+  gap: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+}
+.main_container .inf_of_person .change_data table td {
+  border: 1px solid white;
+  padding: 10px;
+  color: #fff;
+}
+.main_container .inf_of_person .members {
+  display: flex;
+}
+.main_container .inf_of_person .members table td {
+  border: 1px solid white;
+  padding: 10px;
+  color: #fff;
+}
+.main_container .inf_of_person .members table th {
+  border: 1px solid white;
+  padding: 10px;
+  color: #fff;
+}
+
+.tabcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  max-width: 1920px;
+  height: 870px;
+  background-color: #404040;
+}
+.tabcontainer .bigtab td {
+  border: 1px solid white;
+  padding: 10px;
+  color: #fff;
+}
+.tabcontainer .inf {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  max-width: 1650px;
+  max-height: 675px;
+  padding: 20px;
+}
+.tabcontainer .inf .person {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.tabcontainer .inf .person .avatar {
+  display: flex;
+  background-color: #8B8B8B;
+  padding: 15px;
+  border-radius: 100%;
+}
+.tabcontainer .inf .person ul {
+  color: #A6D8D4;
+  font-size: 18px;
+  font-weight: 500;
+}
+.tabcontainer .inf_of_person {
+  max-width: 1900px;
+  display: flex;
+  justify-content: space-between;
+}
+.tabcontainer .inf_of_person .change_data {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  max-width: 500px;
+  max-height: 331px;
+}
+.tabcontainer .inf_of_person .change_data .text {
+  display: flex;
+  gap: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+}
+.tabcontainer .inf_of_person .change_data table td {
+  border: 1px solid white;
+  padding: 10px;
+  color: #fff;
+}
+.tabcontainer .inf_of_person .members {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.tabcontainer .inf_of_person .members .team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #313131;
+  color: #A6D8D4;
+  font-size: 18px;
+  font-weight: 500;
+}
+.tabcontainer .inf_of_person .members table td {
+  border: 1px solid white;
+  padding: 10px;
+  color: #fff;
+}
+.tabcontainer .inf_of_person .members table th {
+  border: 1px solid white;
+  padding: 10px;
+  color: #fff;
+}
+.tabcontainer .inf_of_person .members .newtab {
+  display: flex;
+}
+.tabcontainer .inf_of_person .members .newtab th {
+  color: #929292;
+}
+.tabcontainer .inf_of_person .members .newtab button {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #A6D8D4;
+  border: 1px solid #0d0d0d;
+  color: #0d0d0d;
+}
+.tabcontainer .inf_of_person .members .newtab td {
+  gap: 10px;
+  width: 200px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 160px 20px 160px;
+  background-color: #313131;
+  border-top: 2px solid #A6D8D4;
+}
+footer span {
+  width: -moz-min-content;
+  width: min-content;
+  display: flex;
+  color: #929292;
+  font-size: 16px smaller;
+}
+footer .message-infoblok {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+
+.background2 {
+  width: 100%;
+  height: 870px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #404040;
+}
+.background2 .restoration-blok {
+  width: 600px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  background: #313131;
+  gap: 25px;
+}
+.background2 .restoration-blok span {
+  color: #A6D8D4;
+  font-size: 32px;
+}
+.background2 .restoration-blok .input-boxi input {
+  width: 400px;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px;
+  border: 2px solid #A6D8D4;
+  padding: 10px;
+  font-size: 20px;
+  color: #929292;
+}
+.background2 .restoration-blok .button-code {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 30px 10px 30px;
+  border-radius: 8px;
+  font-size: 20px;
+  background: #A6D8D4;
+  color: black;
+}
+
+.background3 {
+  width: 100%;
+  height: 870px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #404040;
+}
+.background3 .registration-blok {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  background: #313131;
+}/*# sourceMappingURL=style.css.map */
